@@ -3,9 +3,6 @@ import { config } from 'dotenv';
 
 config();
 
-console.log('client id');
-console.log(process.env.CLIENT_ID);
-
 export default new Snoowrap({
   userAgent: 'reddit-inflation-bot',
   clientId: process.env.CLIENT_ID,

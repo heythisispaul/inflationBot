@@ -8,6 +8,9 @@ module.exports = {
         "Atomics": "readonly",
         "SharedArrayBuffer": "readonly"
     },
+    "env": {
+        "jest": true
+    },
     "parserOptions": {
         "ecmaVersion": 2018,
         "sourceType": "module"

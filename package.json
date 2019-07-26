@@ -4,7 +4,7 @@
   "description": "A RedditBot that will give you the value of money adjusted for inflation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "npm run build && node dist/index.js",
     "build": "babel src -d dist"
   },
